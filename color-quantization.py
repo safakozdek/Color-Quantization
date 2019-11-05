@@ -1,6 +1,6 @@
 __author__ = "Alican Safak Ozdek - 2016400069"
 __email__ = "safakozdek@gmail.com"
-__status__ = "Runnings"
+__status__ = "Running"
 
 from PIL import Image
 from matplotlib import pyplot as plt
