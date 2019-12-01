@@ -73,7 +73,6 @@ def read_image():
     global IMAGE, IMAGE_3D_MATRIX
     IMAGE = Image.open(open(PATH_TO_FILE, 'rb'))
     IMAGE_3D_MATRIX = np.array(IMAGE).astype(int)
-    print IMAGE_3D_MATRIX
 
 
 def handle_arguments():
