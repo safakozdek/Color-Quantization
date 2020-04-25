@@ -1,4 +1,4 @@
-__author__ = "Alican Safak Ozdek - 2016400069"
+__author__ = "Alican Safak Ozdek"
 __email__ = "safakozdek@gmail.com"
 __status__ = "Running"
 
