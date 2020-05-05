@@ -3,7 +3,7 @@ Color quantization is the process of reducing number of colors used in an image 
 # How To Run
 There are two possible run modes:
 * **0** - Kmeans with the points you choose by clicking on the image
-* **1** - Kmeans with the random initial points
+* **1** - Kmeans with the random initial points (*suggested for ease of usage*)
 
 After you install all the dependencies on Python3 use the following command:
 
