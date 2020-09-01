@@ -13,13 +13,7 @@ After you install all the dependencies on Python3 use the following command:
 # Results
 ## Original Image
 ![Original Image](/Test_Inputs/1.jpg) 
-## K = 2 
-![Original Image](Test_Outputs/frog2.png)
-## K = 4 
-![Original Image](Test_Outputs/frog4.png)
-## K = 8 
-![Original Image](Test_Outputs/frog8.png)
-## K = 16 
-![Original Image](Test_Outputs/frog16.png)
-## K = 32 
-![Original Image](Test_Outputs/frog32.png)
+
+## K = 2 - 4 - 8 - 16
+![Original Image](Test_Outputs/results.png)
+
