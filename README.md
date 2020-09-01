@@ -16,4 +16,6 @@ After you install all the dependencies on Python3 use the following command:
 
 ### Outputs for K=2, K=4, K=8, K=16
 ![Original Image](Test_Outputs/results.png)
-
+ 
+## Contributing
+Pull-requests, issues, comments and stars are always appreciated!
