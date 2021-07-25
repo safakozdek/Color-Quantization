@@ -50,9 +50,8 @@ def kmeans_main(cluster_points):
 
 
 def kmeans_with_click():
-    global PATH_TO_FILE
-    im = Image.open(open(PATH_TO_FILE, 'rb'))
-    plt.imshow(im)
+    global IMAGE
+    plt.imshow(IMAGE)
     points = plt.ginput(K, show_clicks=True)
     points = [t[::-1] for t in points]  # reversing tuples
     kmeans_main(points)
@@ -70,7 +69,7 @@ def kmeans_with_random():
 
 
 def read_image():
-    global IMAGE, IMAGE_3D_MATRIX
+    global IMAGE, IMAGE_3D_MATRIX, PATH_TO_FILE
     IMAGE = Image.open(open(PATH_TO_FILE, 'rb'))
     IMAGE_3D_MATRIX = np.array(IMAGE).astype(int)
 
